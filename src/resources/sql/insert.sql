@@ -1,0 +1,2 @@
+-- Запрос на добавление записи в таблицу PRODUCT_CODE
+INSERT INTO PRODUCT_CODE (PROD_CODE, DISCOUNT_CODE, DESCRIPTION) VALUES (?, ?, ?)

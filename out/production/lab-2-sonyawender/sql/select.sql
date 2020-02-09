@@ -1,0 +1,3 @@
+-- Запрос на выбор записей из таблицы PRODUCT_CODE
+SELECT * FROM PRODUCT_CODE
+WHERE PROD_CODE=? OR DESCRIPTION=?

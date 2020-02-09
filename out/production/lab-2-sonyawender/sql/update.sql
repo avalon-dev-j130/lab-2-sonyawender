@@ -1,0 +1,4 @@
+-- Запрос на обновление значений записи в таблице PRODUCT_CODE
+UPDATE PRODUCT_CODE
+SET PROD_CODE=?, DISCOUNT_CODE=?, DESCRIPTION=?
+WHERE PROD_CODE=? OR DESCRIPTION=?
